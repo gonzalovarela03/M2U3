@@ -20,19 +20,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Novedades</a>
+                <a class="nav-link" href="#novedades">Novedades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Historia</a>
+                <a class="nav-link" href="#historia">Historia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="#nosotros">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Conocenos</a>
+                <a class="nav-link" href="#conocenos">Conocenos</a>
               </li>
           </div>
         </div>
@@ -49,7 +49,7 @@
       
     <!--inicio de novedades -->
       <div class="row my-3">
-        <div id="novedades" class="col-md-5 offset-md-2 py-3">
+        <div id="novedades" class="col-md-5 offset-md-2 py-3 scroll_section">
             <h2>Novedades</h2>
             <ul class="lista-novedades">
                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src="img/novedades01.jpg"> Nuevas recetas 1</a></li>
@@ -123,6 +123,110 @@
           </div>
           <!--fin testimonios -->
       </div>
+<!--comienzo de hisotria -->
+      <div id="historia" class="row aling-items-center py-4 scroll_section">
+        <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+          <img src="img/historia_1.jpg" alt="historia 1" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 d-none d-sm-block">
+          <img src="img/historia_2.jpg" alt="historia 2 " class="img-fluid">
+        </div>
+        <div class="col-12 d-sm-none">
+          <img src="img/historia_3.jpg" alt="historia 3">
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+          <h2>Historia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod cumque, nobis quam quae dignissimos voluptatem eum corrupti illum quos, alias ea dolorem aliquid labore tempora. Doloremque officia nostrum quia magnam?</p>
+        </div>
+      </div>
+<!--fin de hisotria -->
+<!--comienzo de nosotros -->
+<div id="nosotros" class="row aling-items-stretch my-3 staff py-4 scroll_section">
+  <div class="col-lg-8 offset-lg-2">
+    <h2>Nosotros</h2>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/nosotros01.jpg" class="card-img-top" alt="Diana Reyes">
+          <div class="card-body">
+            <h5 class="card-title">Diana Reyes</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/nosotros02.jpg" class="card-img-top" alt="Lucas Rodriguez">
+          <div class="card-body">
+            <h5 class="card-title">Lucas Rodriguez</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/nosotros03.jpg" class="card-img-top" alt="Hernan Reyes">
+          <div class="card-body">
+            <h5 class="card-title">Hernan Reyes</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/nosotros04.jpg" class="card-img-top" alt="Sebastian Rodriguez">
+          <div class="card-body">
+            <h5 class="card-title">Sebastian Rodriguez</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin de nosotros -->
+<!--comienza el visitanos y el formulario-->
+<div id="conocenos" class="row py-4 scroll_section">
+  <div class="col-md-4 offset-md-2">
+    <h2>Visitanos</h2>
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.8190470179093!2d-58.46991412334074!3d-34.659272560435895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc966bf151d67%3A0x255fef772508e89c!2sUTN.BA!5e0!3m2!1ses!2sar!4v1690378052524!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <div class="col-md-4 mt-4 mt-sm-0">
+  <h2>Contactanos</h2>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Nombre</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Apellido</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Email</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Tel</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-12">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="3"></textarea>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+
+    </div>
+  </form>
+</div>
+</div>
+<!--fin de visitanos y formulario-->
+
+
       <footer>
         <p class="text-center"> Diseñado por: Gonzalo Varela 2023</p>
       </footer>

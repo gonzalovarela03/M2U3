@@ -64,3 +64,18 @@ color: white;
     padding: 50px 20px;
 }
 
+.staff{
+    background: #efefef;
+}
+.mapa iframe{
+width: 100%;
+aspect-ratio: 1.2;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll_section{
+    scroll-margin-top: 60px;
+}
